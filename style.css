@@ -430,3 +430,79 @@ a {
   margin: 20px;
   text-transform: uppercase;
 }
+
+/*  Featured Car */
+
+.featured-car .title-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.featured-car-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--independence);
+  font-size: var(--fs-6);
+}
+.featured-car-link span {
+  transition: var(--transition);
+}
+
+.featured-car-link:is(:hover, :focus) span {
+  color: var(--space-cadet);
+}
+
+.featured-car-link ion-icon {
+  margin-top: 3px;
+  transition: var(--transition);
+}
+
+.featured-car-link:is(:hover, :focus) ion-icon {
+  color: var(--carolina-blue);
+}
+
+.featured-car-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 30px;
+}
+.featured-car-card {
+  background: var(--gradient);
+  border: 1px solid var(--white);
+  border-radius: var(--radius-18);
+  padding: 10px;
+  box-shadow: var(--shadow-1);
+}
+
+.featured-car-card .card-banner {
+  background: hsla(0, 0%, 0%, 0.2);
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius-18);
+  overflow: hidden;
+}
+
+.featured-car-card .card-banner > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-car-card .card-content {
+  padding: 20px 10px 10px;
+}
+
+.featured-car-card .card-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.featured-car-card .card-title {
+  width: calc(100% - 60px);
+}
