@@ -438,7 +438,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 10px 15px;
   margin-bottom: 30px;
 }
 
@@ -543,7 +543,7 @@ a {
 
 .featured-car-card .card-list-item ion-icon {
   font-size: 20px;
-  color: var(--columbia-blue);
+  color: var(--carolina-blue);
   --ionicon-stroke-width: 38px;
 }
 
@@ -554,21 +554,22 @@ a {
 
 .featured-car-card .card-price-wrapper {
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
 }
+
 .featured-car-card .card-price {
   font-family: var(--ff-nunito);
   font-size: var(--fs-6);
   color: var(--space-cadet);
 }
+
 .featured-car-card .card-price strong {
   font-size: var(--fs-3);
   font-weight: var(--fw-400);
 }
-
 .featured-car-card .btn:last-child {
   --height: 36px;
   min-width: 100%;
@@ -577,7 +578,7 @@ a {
 .featured-car-card .fav-btn {
   --background: var(--beau-blue);
   --color: var(--blue--jeans);
-  --height: 30px;
+  --height: 36px;
   --width: 36px;
   --shadow-2: none;
 }
