@@ -271,6 +271,11 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.header .container .logo {
+  display: flex;
+  align-items: center;
+  color: var(--carolina-blue);
+}
 .header-actions {
   display: flex;
   align-items: center;
@@ -577,7 +582,7 @@ a {
 
 .featured-car-card .fav-btn {
   --background: var(--beau-blue);
-  --color: var(--blue--jeans);
+  --color: var(--blue-jeans);
   --height: 36px;
   --width: 36px;
   --shadow-2: none;
@@ -777,6 +782,8 @@ a {
 .has-scrollbar::-webkit-scrollbar-button {
   width: calc(25% - 40px);
 }
+
+/* FOOTER  */
 .footer {
   background: var(--alice-blue-4);
   color: var(--independence);
@@ -797,6 +804,9 @@ a {
 
 .footer-top .logo {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--carolina-blue);
 }
 .footer-text {
   font-size: var(--fs-6);
@@ -1055,7 +1065,7 @@ a {
   }
   .navbar-link {
     margin-bottom: 0;
-    font-weight: var(--fw-600);
+    font-weight: var(--fw-400);
   }
 
   .navbar-list {
